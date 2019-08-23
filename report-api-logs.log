@@ -1,0 +1,16 @@
+2019-08-23 12:37:01.409  INFO 14824 --- [main] c.s.reportapi.ReportApiApplication       : Starting ReportApiApplication on Mayuresh-PC with PID 14824 (D:\study\report-api\report-api\target\classes started by Mayuresh in D:\study\report-api\report-api)
+2019-08-23 12:37:01.418  INFO 14824 --- [main] c.s.reportapi.ReportApiApplication       : No active profile set, falling back to default profiles: default
+2019-08-23 12:37:03.832  INFO 14824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-23 12:37:03.833  INFO 14824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-23 12:37:04.015  INFO 14824 --- [main] o.a.c.c.C.[.[localhost].[/report-api]    : Initializing Spring embedded WebApplicationContext
+2019-08-23 12:37:04.682  INFO 14824 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-08-23 12:37:05.122  INFO 14824 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-08-23 12:37:05.159  INFO 14824 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-08-23 12:37:05.209  INFO 14824 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-08-23 12:37:05.372  INFO 14824 --- [main] c.s.reportapi.ReportApiApplication       : Started ReportApiApplication in 4.578 seconds (JVM running for 9.862)
+2019-08-23 12:37:57.945  INFO 14824 --- [http-nio-8085-exec-1] o.a.c.c.C.[.[localhost].[/report-api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-23 12:38:04.389  INFO 14824 --- [http-nio-8085-exec-7] c.s.r.controller.ReportController        : Received a request to generate summary report.
+2019-08-23 12:38:04.395  INFO 14824 --- [http-nio-8085-exec-7] c.s.reportapi.service.ReportServiceImpl  : Creating summary report data
+2019-08-23 12:38:04.421  INFO 14824 --- [http-nio-8085-exec-7] c.s.reportapi.service.ReportServiceImpl  : Summary report data created successfully.
+2019-08-23 12:38:04.455  INFO 14824 --- [http-nio-8085-exec-7] c.s.reportapi.service.ReportServiceImpl  : Generating report with output file name:Output.csv
+2019-08-23 12:38:04.458  INFO 14824 --- [http-nio-8085-exec-7] c.s.reportapi.service.ReportServiceImpl  : Report generated successfully with file name:Output.csv
